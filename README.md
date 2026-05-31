@@ -12,12 +12,6 @@
 
 Ссылка на репозиторий: https://hub.docker.com/repository/docker/captain1ir/custom-nginx/general
 
-**Скриншоты:**  
-![](/docker-compose/img/1.png)  
-![](/docker-compose/img/2.png)  
-![](/docker-compose/img/3.png)
-
----
 
 ## Задание 2
 
@@ -30,9 +24,9 @@
 - Убедитесь с помощью curl или веб браузера, что индекс-страница доступна.
 
 **Скриншоты:**  
-![](/docker-compose/img/1.png)  
-![](/docker-compose/img/2.png)  
-![](/docker-compose/img/3.png)
+![](./img/1.png)  
+![](./img/2.png)  
+![](./img/3.png) 
 
 ---
 
@@ -60,10 +54,9 @@
 > При запуске контейнера (docker run) мы жестко задали правило маршрутизации (Port Forwarding): перенаправлять трафик с порта 8080 хоста на порт 80 контейнера. Но мы зашли внутрь и заставили Nginx слушать порт 81. В итоге Docker продолжает старательно отправлять внешний трафик на 80-й порт контейнера, но там больше нет программы, которая бы его приняла. Маршрутизация сломалась.
 
 **Скриншоты:**  
-![](/docker-compose/img/4.png)  
-![](/docker-compose/img/5.png)  
-![](/docker-compose/img/6.png)
-
+![](./img/4.png)  
+![](./img/5.png)  
+![](./img/6.png) 
 ---
 
 ## Задание 4
@@ -76,7 +69,8 @@
 - Подключитесь во второй контейнер и отобразите листинг и содержание файлов в /data контейнера.
 
 **Скриншоты:**  
-![](/docker-compose/img/7.png)
+![](./img/7.png)  
+ 
 
 ---
 
@@ -134,6 +128,6 @@ services:
 
 
 **
-![](/docker-compose/img/8.png)
-![](/docker-compose/img/9.png)
-![](/docker-compose/img/10.png)
+![](./img/8.png)  
+![](./img/9.png)  
+![](./img/10.png)  
